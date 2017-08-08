@@ -121,15 +121,17 @@ If you don't want to generate comment, just random pick from list use:
 comment_list = [["WOW", "Amazing", "Cool", "So wonderful"]]
 ```
 Emoticons in comments example. Requires https://pypi.python.org/pypi/emoji/
-Emoji Cheat Cheet: https://www.webpagefx.com/tools/emoji-cheat-sheet/
+[Emoji Cheat Cheet](https://www.google.com "Emoji Cheat Cheet")
 ```python
 comment_list = [["WOW :poop:", ":smile: Cool", ":fire::fire:"]]
 ```
+* WOW 💩
+* 😄 Cool
+* 🔥🔥
 Like 1 to `max_like_for_one_tag` times by row.
 ```python
 max_like_for_one_tag=5
 ```
-
 You can like one tag:
 ```python
 bot.get_media_id_by_tag('dog')
